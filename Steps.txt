@@ -1,0 +1,21 @@
+Build your own load balancer 
+
+Dependencies : Done
+    1. Express
+    2. Request
+    3. Nodemon
+
+Step 1 : Load balancer server running on s1. 
+step 2 : servers running on sa, sb, sc.
+step 3 : Create middleware to router requests and make a server index. 
+step 4 : Implement Round Robin to find and store the active servers.
+
+Do health every 5 seconds
+Add api/health to every server
+Send request every 5 seconds
+
+
+Good morning my name is ashish singh 
+
+
+We have a list of active servers, Now we have an iterator that will iterate form 0 always and then increase and then will increase itself and adjust the values. 
